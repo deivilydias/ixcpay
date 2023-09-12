@@ -1,0 +1,596 @@
+.dashboardChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    112.26deg,
+    transparent,
+    rgba(0, 102, 255, 0.57) 63.54%
+  );
+  width: 1280px;
+  height: 832px;
+}
+.dashboardItem,
+.rectangleDiv {
+  position: absolute;
+  top: 373px;
+  left: 986px;
+  border-radius: var(--br-25xl);
+  background: linear-gradient(
+    180.02deg,
+    rgba(139, 139, 139, 0.7),
+    rgba(53, 101, 224, 0)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  width: 285px;
+  height: 496px;
+  opacity: 0.3;
+}
+.rectangleDiv {
+  top: 188px;
+  border-radius: var(--br-16xl);
+  height: 171px;
+}
+.dashboardChild1,
+.dashboardChild2,
+.dashboardChild3 {
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 314px;
+}
+.dashboardChild1 {
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  border-radius: var(--br-25xl);
+  height: 279px;
+}
+.dashboardChild2,
+.dashboardChild3 {
+  height: 187px;
+}
+.dashboardChild2 {
+  position: absolute;
+  top: 466px;
+  left: 10px;
+  border-radius: var(--br-25xl);
+}
+.dashboardChild3 {
+  top: 670px;
+  left: 5px;
+}
+.dashboardChild3,
+.dashboardChild4,
+.dashboardChild5 {
+  position: absolute;
+  border-radius: var(--br-25xl);
+}
+.dashboardChild4 {
+  top: 627px;
+  left: 325px;
+  background: linear-gradient(
+    180.02deg,
+    rgba(49, 52, 134, 0.7),
+    rgba(40, 39, 39, 0)
+  );
+  width: 649px;
+  height: 433px;
+}
+.dashboardChild5 {
+  top: 181px;
+  left: 336px;
+  background: linear-gradient(
+    247.64deg,
+    rgba(26, 45, 218, 0.7),
+    rgba(179, 187, 255, 0.21) 58.64%,
+    rgba(255, 255, 255, 0) 97.85%
+  );
+  width: 635px;
+  height: 430px;
+  opacity: 0.65;
+}
+.dashboardChild6 {
+  top: 39px;
+  left: 407px;
+  background-color: var(--color-dimgray);
+  width: 424px;
+  height: 54px;
+  opacity: 0.5;
+}
+.dashboardChild6,
+.dashboardChild7,
+.dashboardChild8 {
+  position: absolute;
+  border-radius: var(--br-25xl);
+}
+.dashboardChild7 {
+  top: 30px;
+  left: 1078px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 172px;
+  height: 59px;
+}
+.dashboardChild8 {
+  top: 46px;
+  left: 486px;
+  background-color: var(--color-gainsboro-100);
+  width: 118px;
+  height: 40px;
+}
+.b,
+.pagamentosRecebidosCom {
+  position: absolute;
+  top: 200px;
+  left: 36px;
+  display: inline-block;
+  width: 226px;
+  height: 28px;
+}
+.b {
+  top: 266px;
+  font-size: var(--font-size-45xl);
+  width: 134px;
+  height: 65px;
+}
+.projetosEmAndamento {
+  top: 501px;
+  left: 45px;
+  width: 243px;
+  height: 28px;
+}
+.b1,
+.b2,
+.emNegociao,
+.projetosEmAndamento {
+  position: absolute;
+  display: inline-block;
+}
+.b1 {
+  top: 538px;
+  left: 45px;
+  font-size: var(--font-size-45xl);
+  width: 134px;
+  height: 65px;
+}
+.b2,
+.emNegociao {
+  top: 691px;
+  left: 35px;
+  width: 243px;
+  height: 28px;
+}
+.b2 {
+  top: 728px;
+  font-size: var(--font-size-45xl);
+  width: 134px;
+  height: 65px;
+}
+.dashboardChild10,
+.dashboardChild9 {
+  position: absolute;
+  top: 383px;
+  left: 35px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 260px;
+  height: 27px;
+}
+.dashboardChild10 {
+  background-color: var(--color-royalblue);
+  width: 210px;
+}
+.dashboardChild11,
+.dashboardChild12,
+.dashboardChild13,
+.dashboardChild14 {
+  position: absolute;
+  top: 383px;
+  left: 364px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  width: 118px;
+  height: 155px;
+  opacity: 0.45;
+}
+.dashboardChild12,
+.dashboardChild13,
+.dashboardChild14 {
+  top: 405px;
+  left: 512px;
+  width: 119px;
+  height: 133px;
+}
+.dashboardChild13,
+.dashboardChild14 {
+  top: 481px;
+  left: 824px;
+  height: 57px;
+}
+.dashboardChild14 {
+  top: 359px;
+  left: 656px;
+  width: 157px;
+  height: 180px;
+}
+.dashboardChild15,
+.dashboardChild16,
+.dashboardChild17,
+.dashboardChild18 {
+  position: absolute;
+  top: 270px;
+  border-radius: var(--br-xl);
+  width: 104px;
+  height: 35px;
+}
+.dashboardChild15 {
+  left: 365px;
+  background-color: var(--color-silver);
+  opacity: 0.45;
+}
+.dashboardChild16,
+.dashboardChild17,
+.dashboardChild18 {
+  left: 482px;
+  background-color: var(--color-white);
+}
+.dashboardChild17,
+.dashboardChild18 {
+  left: 601px;
+  background-color: var(--color-silver);
+  opacity: 0.45;
+}
+.dashboardChild18 {
+  left: 720px;
+}
+.estatisticasDeRecebimento,
+.insights,
+.pagamentosRecebidos,
+.principaisFontes {
+  position: absolute;
+  top: 220px;
+  left: 370px;
+  display: inline-block;
+  width: 292px;
+  height: 31px;
+}
+.estatisticasDeRecebimento,
+.insights,
+.principaisFontes {
+  top: 651px;
+}
+.insights,
+.principaisFontes {
+  top: 216px;
+  left: 1007px;
+  width: 81px;
+}
+.principaisFontes {
+  top: 401px;
+  left: 1020px;
+  width: 182px;
+}
+.b3,
+.clientesQuePagam,
+.projetoA,
+.projetoB,
+.projetoC,
+.projetoD {
+  position: absolute;
+  top: 500px;
+  left: 1073px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.b3,
+.clientesQuePagam,
+.projetoB,
+.projetoC,
+.projetoD {
+  top: 571px;
+}
+.b3,
+.clientesQuePagam,
+.projetoC,
+.projetoD {
+  top: 643px;
+}
+.b3,
+.clientesQuePagam,
+.projetoD {
+  top: 716px;
+}
+.b3,
+.clientesQuePagam {
+  top: 256px;
+  left: 1015px;
+  font-size: var(--font-size-21xl);
+  width: 113px;
+  height: 49px;
+}
+.clientesQuePagam {
+  top: 308px;
+  left: 1020px;
+  font-size: var(--font-size-xs);
+  font-weight: 200;
+  width: 179px;
+  height: 56px;
+}
+.cartoDeCrdito {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.b4,
+.melhorDoQue,
+.r1525010CartoContainer,
+.r1623090BoletoContainer,
+.r837000DinheiroContainer,
+.r928012CartoContainer {
+  position: absolute;
+  top: 349px;
+  left: 370px;
+  display: inline-block;
+  width: 128px;
+  height: 39px;
+  font-size: var(--font-size-base);
+}
+.b4,
+.melhorDoQue,
+.r1623090BoletoContainer,
+.r837000DinheiroContainer,
+.r928012CartoContainer {
+  top: 373px;
+  left: 521px;
+}
+.b4,
+.melhorDoQue,
+.r1623090BoletoContainer,
+.r837000DinheiroContainer {
+  top: 325px;
+  left: 662px;
+}
+.b4,
+.melhorDoQue,
+.r837000DinheiroContainer {
+  top: 449px;
+  left: 835px;
+}
+.b4,
+.melhorDoQue {
+  top: 542px;
+  left: 370px;
+  font-size: var(--font-size-29xl);
+  width: 200px;
+}
+.melhorDoQue {
+  top: 555px;
+  left: 471px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  height: 44px;
+}
+.semana {
+  left: 384px;
+}
+.ano,
+.ms,
+.semana,
+.trimestre {
+  position: absolute;
+  top: 279px;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  width: 58px;
+  height: 16px;
+}
+.ms {
+  left: 502px;
+  color: var(--color-midnightblue);
+}
+.ano,
+.trimestre {
+  left: 624px;
+}
+.ano {
+  left: 743px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 205px;
+  left: 1204px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 46px;
+  height: 46px;
+}
+.graphsIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 212px;
+  left: 1212px;
+  width: 30px;
+  height: 32px;
+  object-fit: cover;
+}
+.graphsIcon {
+  top: 752.89px;
+  left: 342px;
+  width: 596px;
+  height: 79.11px;
+}
+.bg {
+  height: 5.89%;
+  width: 3.83%;
+  top: 66.83%;
+  right: 16.95%;
+  bottom: 27.28%;
+  border-radius: 50%;
+  border: 2px solid var(--color-lightslategray-300);
+  box-sizing: border-box;
+}
+.bg,
+.bg1,
+.pathIcon,
+.pathIcon1 {
+  position: absolute;
+  left: 79.22%;
+}
+.pathIcon {
+  height: 5.89%;
+  width: 1.99%;
+  top: 66.83%;
+  right: 18.79%;
+  bottom: 27.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg1,
+.pathIcon1 {
+  top: 75.48%;
+}
+.bg1 {
+  height: 5.89%;
+  width: 3.83%;
+  right: 16.95%;
+  bottom: 18.63%;
+  border-radius: 50%;
+  border: 2px solid var(--color-lightslategray-300);
+  box-sizing: border-box;
+}
+.pathIcon1 {
+  height: 3.06%;
+  width: 1.99%;
+  right: 18.79%;
+  bottom: 21.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg2 {
+  height: 5.89%;
+  width: 3.83%;
+  top: 84.25%;
+  right: 16.95%;
+  bottom: 9.86%;
+  border-radius: 50%;
+  border: 2px solid var(--color-lightslategray-300);
+  box-sizing: border-box;
+}
+.bg2,
+.bg3,
+.pathIcon2,
+.pathIcon3 {
+  position: absolute;
+  left: 79.22%;
+}
+.pathIcon2 {
+  height: 3.06%;
+  width: 1.99%;
+  top: 84.25%;
+  right: 18.79%;
+  bottom: 12.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg3,
+.pathIcon3 {
+  height: 5.89%;
+  width: 3.83%;
+  top: 58.29%;
+  right: 16.95%;
+  bottom: 35.82%;
+}
+.bg3 {
+  border-radius: 50%;
+  border: 2px solid var(--color-lightslategray-300);
+  box-sizing: border-box;
+}
+.pathIcon3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clientes,
+.dashboard1 {
+  position: absolute;
+  top: 57px;
+  left: 510px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  color: var(--color-black);
+  text-align: center;
+  width: 71px;
+  height: 18px;
+}
+.clientes {
+  left: 666px;
+  cursor: pointer;
+}
+.dashboardChild19,
+.ellipseIcon {
+  position: absolute;
+  top: 36px;
+  left: 1189px;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+}
+.dashboardChild19 {
+  top: 44px;
+  left: 1111px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.dashboardChild20,
+.dashboardChild21 {
+  position: absolute;
+  top: 19px;
+  left: 32px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue);
+  width: 20px;
+  height: 20px;
+}
+.dashboardChild21 {
+  top: 27px;
+  background-color: var(--color-chocolate);
+}
+.deivilyDias {
+  margin: 0;
+}
+.deivilyDiasIxcpayContainer {
+  position: absolute;
+  top: 19px;
+  left: 56px;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  font-family: var(--font-nunito-sans);
+  width: 93px;
+  height: 33px;
+}
+.dashboard {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

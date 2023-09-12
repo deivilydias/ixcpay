@@ -1,0 +1,699 @@
+.pagamentosChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    112.26deg,
+    transparent,
+    rgba(0, 102, 255, 0.57) 63.54%
+  );
+  width: 1280px;
+  height: 832px;
+}
+.pagamentosItem {
+  top: 39px;
+  left: 407px;
+  background-color: var(--color-dimgray);
+  width: 424px;
+  height: 54px;
+  opacity: 0.5;
+}
+.pagamentosInner,
+.pagamentosItem,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-25xl);
+}
+.pagamentosInner {
+  top: 30px;
+  left: 1078px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 172px;
+  height: 59px;
+}
+.rectangleDiv {
+  top: 44px;
+  left: 642px;
+  background-color: var(--color-gainsboro-100);
+  width: 118px;
+  height: 40px;
+}
+.clientes,
+.dashboard {
+  position: absolute;
+  top: 57px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  width: 71px;
+  height: 18px;
+}
+.dashboard {
+  left: 510px;
+  cursor: pointer;
+}
+.clientes {
+  left: 666px;
+}
+.ellipseIcon,
+.pagamentosChild1 {
+  position: absolute;
+  top: 36px;
+  left: 1189px;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+}
+.pagamentosChild1 {
+  top: 44px;
+  left: 1111px;
+  width: 30px;
+  height: 30px;
+}
+.elmcardmain {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(90deg, #0c339a, rgba(12, 62, 191, 0));
+  box-shadow: 0 6px 58px rgba(196, 203, 214, 0.1);
+}
+.elmgeneralprogressIcon {
+  position: absolute;
+  height: 28.32%;
+  width: 3.02%;
+  top: 35.29%;
+  right: 3.52%;
+  bottom: 36.39%;
+  left: 93.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bgtaskstatusgreen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkviolet-200);
+}
+.uiuxDesigner {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  line-height: 16px;
+}
+.elmgeneraltaskstatusdone1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.elmgeneraltaskstatusdone {
+  position: absolute;
+  height: 32.97%;
+  width: 6.9%;
+  top: 32.97%;
+  right: 11.7%;
+  bottom: 34.07%;
+  left: 81.4%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkviolet-100);
+}
+.assigneeCopy,
+.estimate,
+.priority {
+  position: absolute;
+  width: 6.55%;
+  top: calc(50% - 23.5px);
+  left: 30.88%;
+  display: inline-block;
+}
+.assigneeCopy,
+.priority {
+  width: 6.81%;
+  top: calc(50% - 24.5px);
+  left: 54.87%;
+}
+.priority {
+  width: 7.6%;
+  top: calc(50% - 23.5px);
+  left: 67.37%;
+}
+.uiuxDesigner1 {
+  position: absolute;
+  top: calc(50% - 6.58px);
+  left: 34.18%;
+  line-height: 16px;
+}
+.container,
+.priorityIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.priorityIcon {
+  height: 66.67%;
+  width: 50%;
+  top: 16.67%;
+  right: 25%;
+  bottom: 16.67%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icngeneralprioritymedium,
+.taskStatusMedium1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.icngeneralprioritymedium {
+  width: 30.38%;
+  right: 69.62%;
+  display: none;
+}
+.taskStatusMedium1 {
+  width: 97.53%;
+  right: 2.47%;
+  overflow: hidden;
+}
+.taskStatusMedium {
+  position: absolute;
+  height: 26.37%;
+  width: 9.47%;
+  top: 49.45%;
+  right: 25.96%;
+  bottom: 24.18%;
+  left: 64.56%;
+  color: #21ff7a;
+}
+.elmgeneralphotoIcon {
+  position: absolute;
+  height: 30.26%;
+  width: 3.23%;
+  top: 47.51%;
+  right: 41.19%;
+  bottom: 22.23%;
+  left: 55.58%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.d4h,
+.research {
+  position: absolute;
+  width: 14.39%;
+  top: calc(50% - 0.5px);
+  left: 3.51%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.d4h {
+  width: 4.91%;
+  left: 30.88%;
+}
+.d2h,
+.spentTime {
+  left: 42.34%;
+  display: inline-block;
+}
+.spentTime {
+  position: absolute;
+  width: 5.03%;
+  top: calc(50% - 23.5px);
+}
+.d2h {
+  width: 4.91%;
+  top: calc(50% - 0.5px);
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+}
+.d2h,
+.task,
+.taskName {
+  position: absolute;
+}
+.taskName {
+  width: 3.27%;
+  top: calc(50% - 23.5px);
+  left: 3.51%;
+  display: inline-block;
+}
+.task {
+  top: 343px;
+  left: 152px;
+  width: 955px;
+  height: 103px;
+  cursor: pointer;
+}
+.elmgeneralprogressIcon1 {
+  position: absolute;
+  height: 28.3%;
+  width: 3.02%;
+  top: 35.3%;
+  right: 3.52%;
+  bottom: 36.4%;
+  left: 93.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bgtaskstatusgreen1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod-200);
+}
+.uiuxDesigner2 {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  line-height: 16px;
+}
+.elmgeneraltaskstatusdone2 {
+  position: absolute;
+  height: 32.97%;
+  width: 6.9%;
+  top: 32.97%;
+  right: 11.7%;
+  bottom: 34.07%;
+  left: 81.4%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-goldenrod-100);
+}
+.assigneeCopy1,
+.estimate1,
+.priority1 {
+  position: absolute;
+  width: 6.55%;
+  top: calc(50% - 24px);
+  left: 30.88%;
+  display: inline-block;
+}
+.assigneeCopy1,
+.priority1 {
+  width: 4.8%;
+  top: calc(50% - 25px);
+  left: 54.85%;
+}
+.priority1 {
+  width: 7.6%;
+  top: calc(50% - 24px);
+  left: 67.37%;
+}
+.uiuxDesigner3 {
+  position: absolute;
+  top: calc(50% - 6.71px);
+  left: 34.18%;
+  line-height: 16px;
+}
+.taskStatusMedium2 {
+  position: absolute;
+  height: 26.37%;
+  width: 9.47%;
+  top: 49.45%;
+  right: 25.96%;
+  bottom: 24.18%;
+  left: 64.56%;
+  color: #ff5621;
+}
+.elmgeneralphotoIcon1 {
+  position: absolute;
+  height: 30.22%;
+  width: 3.23%;
+  top: 47.53%;
+  right: 41.19%;
+  bottom: 22.25%;
+  left: 55.58%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.d4h1,
+.research1 {
+  position: absolute;
+  width: 7.13%;
+  top: calc(50% - 1px);
+  left: 3.51%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.d4h1 {
+  width: 4.91%;
+  left: 30.88%;
+}
+.spentTime1 {
+  width: 5.03%;
+  top: calc(50% - 24px);
+  left: 42.34%;
+}
+.d2h1,
+.spentTime1,
+.taskName1 {
+  position: absolute;
+  display: inline-block;
+}
+.d2h1 {
+  width: 4.91%;
+  top: calc(50% - 1px);
+  left: 42.34%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+}
+.taskName1 {
+  width: 3.27%;
+  top: calc(50% - 24px);
+  left: 3.51%;
+}
+.task1 {
+  position: absolute;
+  top: 458px;
+  left: 152px;
+  width: 955px;
+  height: 104px;
+  cursor: pointer;
+}
+.elmgeneralprogressIcon2 {
+  position: absolute;
+  height: 28.28%;
+  width: 3.02%;
+  top: 35.31%;
+  right: 3.52%;
+  bottom: 36.41%;
+  left: 93.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bgtaskstatusgreen2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightcyan);
+}
+.uiuxDesigner4 {
+  position: absolute;
+  top: 7px;
+  left: 19px;
+  line-height: 16px;
+}
+.elmgeneraltaskstatusdone4 {
+  position: absolute;
+  height: 32.97%;
+  width: 6.9%;
+  top: 32.97%;
+  right: 11.7%;
+  bottom: 34.07%;
+  left: 81.4%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-mediumseagreen);
+}
+.assigneeCopy2 {
+  position: absolute;
+  width: 4.8%;
+  top: calc(50% - 24.5px);
+  left: 54.85%;
+  display: inline-block;
+}
+.uiuxDesigner5 {
+  position: absolute;
+  top: calc(50% - 6.85px);
+  left: 34.18%;
+  line-height: 16px;
+}
+.taskStatusMedium4 {
+  position: absolute;
+  height: 26.37%;
+  width: 9.47%;
+  top: 49.45%;
+  right: 25.96%;
+  bottom: 24.18%;
+  left: 64.56%;
+  color: var(--color-orange);
+}
+.elmgeneralphotoIcon2 {
+  position: absolute;
+  height: 30.18%;
+  width: 3.23%;
+  top: 47.55%;
+  right: 41.19%;
+  bottom: 22.27%;
+  left: 55.58%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.research2 {
+  position: absolute;
+  width: 13.33%;
+  top: calc(50% - 0.5px);
+  left: 3.51%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.task2,
+.task3 {
+  position: absolute;
+  top: 691px;
+  left: 152px;
+  width: 955px;
+  height: 105px;
+  cursor: pointer;
+}
+.task3 {
+  top: 226px;
+}
+.elmgeneralphotoIcon4,
+.elmgeneralprogressIcon4 {
+  position: absolute;
+  height: 26.37%;
+  width: 2.81%;
+  top: 36.26%;
+  right: 3.63%;
+  bottom: 37.36%;
+  left: 93.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.elmgeneralphotoIcon4 {
+  top: 49.45%;
+  right: 41.4%;
+  bottom: 24.18%;
+  left: 55.79%;
+  border-radius: 50%;
+}
+.research4 {
+  position: absolute;
+  width: 14.5%;
+  top: calc(50% - 1px);
+  left: 3.51%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.task4 {
+  position: absolute;
+  top: 817px;
+  left: 152px;
+  width: 955px;
+  height: 104px;
+}
+.bgtaskstatusgreen5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mistyrose);
+}
+.uiuxDesigner10 {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  line-height: 16px;
+}
+.elmgeneraltaskstatusdone10 {
+  position: absolute;
+  height: 32.97%;
+  width: 6.9%;
+  top: 32.97%;
+  right: 11.7%;
+  bottom: 34.07%;
+  left: 81.4%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-orangered-100);
+}
+.research5 {
+  position: absolute;
+  width: 7.13%;
+  top: calc(50% - 0.5px);
+  left: 3.51%;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.task5 {
+  position: absolute;
+  top: 574px;
+  left: 152px;
+  width: 955px;
+  height: 105px;
+  cursor: pointer;
+}
+.projects {
+  position: absolute;
+  top: 16px;
+  left: -94px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-200);
+}
+.filtersIcon {
+  position: absolute;
+  top: 105px;
+  left: 95px;
+  width: 164px;
+  height: 164px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.elmmainbutton {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-dodgerblue);
+  box-shadow: 0 6px 12px rgba(63, 140, 255, 0.26);
+}
+.icngeneraladdwhiteIcon {
+  position: absolute;
+  height: 50%;
+  width: 15.19%;
+  top: 22.92%;
+  right: 74.68%;
+  bottom: 27.08%;
+  left: 10.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.addProject {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 30.38%;
+}
+.mainButton {
+  position: absolute;
+  top: 157px;
+  left: 234px;
+  width: 158px;
+  height: 48px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.ellipseDiv,
+.pagamentosChild2 {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue);
+  width: 20px;
+  height: 20px;
+}
+.pagamentosChild2 {
+  top: 24px;
+  background-color: var(--color-chocolate);
+}
+.deivilyDias {
+  margin: 0;
+}
+.deivilyDiasIxcpayContainer {
+  position: absolute;
+  top: 16px;
+  left: 44px;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  color: var(--color-white);
+  width: 93px;
+  height: 33px;
+}
+.pagamentos {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-100);
+  font-family: var(--font-nunito-sans);
+}
